@@ -1,0 +1,3 @@
+help: An IPv4 prefix of subnet for which remote traffic should be forwarded. Enables split tunneling.
+type: ipv4net
+default: "0.0.0.0/0"

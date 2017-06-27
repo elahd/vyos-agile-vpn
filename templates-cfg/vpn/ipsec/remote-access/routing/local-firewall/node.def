@@ -1,0 +1,6 @@
+help: Specifies whether local (server) is doing firewall-forwarding (incl. masquerading) from rightsubnet.
+type: txt
+default: "enable"
+syntax:expression: $VAR(@) in "enable", "disable"; "must be enabled or disabled"
+val_help: enable; Firewall forwarding present. (default)
+val_help: disable; Firewall forwarding not present.
